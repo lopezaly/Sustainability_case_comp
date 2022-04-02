@@ -1,0 +1,158 @@
+,Property Id,Property Name,Parent Property Id,Parent Property Name,Year Ending,ENERGY STAR Score,Source EUI (kBtu/ft²),Site EUI (kBtu/ft²),Primary Property Type - Self Selected
+0,5787736,Webb Tower (WTO),12420433,USC Campus Parent,2020-12-31 00:00:00,86,69.3,38.5,Residence Hall/Dormitory
+1,5787738,Eileen & Kenneth T. Norris Dental Science Center (DEN),12420433,USC Campus Parent,2020-12-31 00:00:00,25,275.7,124.3,Medical Office
+2,5787741,Century Apartments (CAP),Not Applicable: Standalone Property,Not Applicable: Standalone Property,2021-10-31 00:00:00,Not Available,15.1,7.3,Residence Hall/Dormitory
+3,5787748,Parkside Residential Building (PRB),12420433,USC Campus Parent,2020-12-31 00:00:00,17,158.5,122.7,Residence Hall/Dormitory
+4,5787760,Parking Structure One/PS1 (PSO),12420433,USC Campus Parent,2021-12-31 00:00:00,Not Available,5.9,2.1,Parking
+5,5787773,Cardinal Gardens (CAR),12420433,USC Campus Parent,2021-03-31 00:00:00,100,20.9,15,Multifamily Housing
+6,5787780,Troy Hall (TRH) and Troy East (TRE),Not Applicable: Standalone Property,Not Applicable: Standalone Property,2021-02-28 00:00:00,100,21.2,12.7,Multifamily Housing
+7,5787785,Parking Structure A (PSA),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,144.2,51.5,Parking
+8,5787788,University Parking Center (UPX),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,3.6,1.4,Parking
+9,5868137,Valley Warehouse Building (VWB),12420433,USC Campus Parent,2020-12-31 00:00:00,100,0.9,0.3,Non-Refrigerated Warehouse
+10,5933228,Soto Street Building (SSB),12420433,USC Campus Parent,2020-12-31 00:00:00,59,157.6,72.5,Office
+11,5933237,"Galen Event Center (GEC), Galen Athletic Pavilion (GAP)+Exposition Parking (EPS)",Not Applicable: Standalone Property,Not Applicable: Standalone Property,2020-12-31 00:00:00,Not Available,96.3,51.8,Indoor Arena
+12,5933265,Center for Health Professions (CHP),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,729.6,440.8,College/University
+13,5933346,Health Consultation Center II (HC2),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,270.4,151.9,Outpatient Rehabilitation/Physical Therapy
+14,5933363,San Pablo Parking Structure (SPS),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,9.1,3.3,Parking
+15,5933483,Ray R. Irani Hall (RRI),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,626.1,397.2,Laboratory
+16,5933526,Katherine B. Loker Track Stadium (LTS),12420433,USC Campus Parent,2019-12-31 00:00:00,Not Available,14.8,7.9,Stadium (Open)
+17,5933533,School of Cinematic Arts (SCA),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,131.4,86.1,College/University
+18,5933573,USC Hotel USH/UHR (formerly RMH & RHR),Not Applicable: Standalone Property,Not Applicable: Standalone Property,2021-10-31 00:00:00,67,143.8,72.2,Hotel
+19,5933579,Carole Little Building (CAL),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,595.3,218,Office
+20,5933600,Clinical Science Center (CSC + CSA + CCC),Not Applicable: Standalone Property,Not Applicable: Standalone Property,2020-12-31 00:00:00,Not Available,561.8,302.7,Laboratory
+21,5933612,Soto Street Building Two (SST),12420433,USC Campus Parent,2020-12-31 00:00:00,54,161.2,69.5,Office
+22,5933614,Fluor Tower (FLT),12420433,USC Campus Parent,2020-12-31 00:00:00,83,66.7,23.8,Residence Hall/Dormitory
+23,5933619,Parkside Apartments I (PKS),12420433,USC Campus Parent,2020-12-31 00:00:00,48,103.9,78.7,Residence Hall/Dormitory
+24,5940528,Estelle Doheny Eye Institute (HC4),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,326,176.9,Ambulatory Surgical Center
+25,6265940,Wallis Annenberg Hall (ANN),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,206.7,135.8,College/University
+26,6291095,EGG Company II (EGG),6291095,EGG Company II (EGG),2019-12-31 00:00:00,Not Available,140,62.7,College/University
+27,6291097,Roger and Michele Dedeaux Engemann Student Health Center (ESH),12420433,USC Campus Parent,2020-12-31 00:00:00,50,197.2,90.4,Medical Office
+28,6291098,Jill and Frank Fertitta Hall (JFF),12420433,USC Campus Parent,2021-04-30 00:00:00,Not Available,82.2,55.3,College/University
+29,6291100,John McKay Center (JMC),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,269,191.5,College/University
+30,6291101,Hoffman Contracts Research Building (RAN),12420433,USC Campus Parent,2021-10-31 00:00:00,46,163.1,58.3,Office
+31,6291106,Parking Structure D (PSD),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,13.3,4.8,Parking
+32,6291108,Ronal Tutor Hall of Engineering (RTH),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,591,378.4,College/University
+33,6291109,Verna and Peter Dauterive Hall (VPD),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,189.4,105.1,College/University
+34,6353448,Founders Apartments (FSA),12420433,USC Campus Parent,2021-10-31 00:00:00,100,12.4,6.4,Multifamily Housing
+35,6355814,School of Cinematic Arts I (SCI),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,229.8,141.8,College/University
+36,6368483,KCH,"6291095, 12420433","EGG Company II (EGG), USC Campus Parent",No Current Year Ending Date,Not Available,Not Available,Not Available,College/University
+37,6368504,KER,"6291095, 12420433","EGG Company II (EGG), USC Campus Parent",No Current Year Ending Date,Not Available,Not Available,Not Available,College/University
+38,6371872,Jefferson Boulevard Structure (PSB),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,11,3.9,Parking
+39,6538340,Harlyne J. Norris Research Tower (NRT),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,366.7,214.2,Laboratory
+40,6559742,Campus Development and Facilities (CDF),12420433,USC Campus Parent,2020-12-31 00:00:00,84,102.6,45,Office
+41,6569870,Terrace Apartments (TSA),12420433,USC Campus Parent,2020-12-31 00:00:00,100,18.8,12.9,Multifamily Housing
+42,6739717,Centennial Apartments (CEN),12420433,USC Campus Parent,2021-10-31 00:00:00,100,20.5,10.4,Multifamily Housing
+43,6739737,Sierra Apartments (SIE),12420433,USC Campus Parent,2019-12-31 00:00:00,86,47.7,21.4,Multifamily Housing
+44,6739764,Regal Trojan Apartments (RTA),12420433,USC Campus Parent,2020-12-31 00:00:00,100,30.5,24.4,Multifamily Housing
+45,6739765,Hillview Apartments (HIL),12420433,USC Campus Parent,2021-10-31 00:00:00,100,19.1,8.4,Multifamily Housing
+46,6739770,Severance Street Apartments (SSA),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,8,4.3,Multifamily Housing
+47,6739956,Pacific Apartments (PCA),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,23.8,18.1,Multifamily Housing
+48,6739961,Fairmont Apartment (FMT),12420433,USC Campus Parent,2020-12-31 00:00:00,100,17,14.1,Multifamily Housing
+49,6794038,Mudd Memorial Research Building (MMR),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,302.3,185.7,College/University
+50,6794040,David X. Marks Tower (DMT),12420433,USC Campus Parent,2020-12-31 00:00:00,65,83.1,51,Residence Hall/Dormitory
+51,6794041,Olin Hall Of Engineering (OHE),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,206.1,141.2,College/University
+52,6794042,Jefferson  Building (JEF),12420433,USC Campus Parent,2020-12-31 00:00:00,71,93.2,33.3,Office
+53,6794043,Norris Healthcare Consultation Center (HC3),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,402.7,204.3,Ambulatory Surgical Center
+54,6794044,Thomas & Dorothy Leavey Library (LVL),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,165.1,75,Library
+55,6794045,Trojan Residence Hall (TRO),12420433,USC Campus Parent,2020-12-31 00:00:00,60,93.6,54.8,Residence Hall/Dormitory
+56,6794046,Ahmanson Center For Biological Research (ACB),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,863.1,528.2,College/University
+57,6794050,Montgomery Ross Fisher Building (School of Social Work) (MRF),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,102.4,40.2,College/University
+58,6794052,Elaine Stevely Hoffman Medical Research Center (HMR),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,393.1,254,Laboratory
+59,6794054,Norris Medical Library (NML),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,272.4,194.4,Library
+60,6794056,Kenneth Norris Jr. Cancer Hospital Research Institute (NOR),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,513.3,271.1,Other - Specialty Hospital
+61,6794057,Uytengsu Aquatic Center (UAC),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,681.5,380.7,Other
+62,6794062,John E. Bishop Medical Teaching & Research Building (BMT),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,456.2,347.4,College/University
+63,6794063,Eli & Edyth Broad Cirm Center For Regenerative Medicine & Stem Cell Resch.(BCC),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,575.3,518.2,College/University
+64,6794064,May Ormerod Harris Residence Hall (HRH),12420433,USC Campus Parent,2020-12-31 00:00:00,76,70.8,46.6,Residence Hall/Dormitory
+65,6794071,Waite Phillips Hall of Education (WPH),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,209.5,106.4,College/University
+66,6794073,Physical Education Building (PED),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,401.7,190.8,College/University
+67,6794075,Blanche & Frank R. Seaver Student Residence Hall (SRH),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,300.6,204.5,College/University
+68,6794077,Zilkha Neurogenetic Institute (ZNI),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,742.2,522.2,Laboratory
+69,6794079,Mark Taper Hall of Humanities (THH),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,106,37.9,College/University
+70,6794081,Mckibben Addition (MCA),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,450,357.9,College/University
+71,6794082,The Music Complex (TMC),Not Applicable: Standalone Property,Not Applicable: Standalone Property,2020-12-31 00:00:00,Not Available,80.5,28.8,College/University
+72,6794083,Temporary Research Facility-Dornsife (TRF),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,198.7,73.6,College/University
+73,6794085,John Stauffer Pharmaceutical Science Center (PSC),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,315.2,192.1,College/University
+74,6794086,Health Sciences Campus Parking Structure (HSP),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,10.9,3.9,Parking
+75,6794088,Frank L. King  Olympic Hall of Champions (KOH),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,294,139.3,College/University
+76,6794090,Michelson Center For Convergent Bioscience (MCB),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,510.7,323.7,Laboratory
+77,6794091,Corwin D. Denney Research Center (DRB),Not Applicable: Standalone Property,Not Applicable: Standalone Property,2020-12-31 00:00:00,Not Available,211.1,109.2,College/University
+78,6794092,Cecele & Michael Birnkrant Residence Hall (BSR),12420433,USC Campus Parent,2020-12-31 00:00:00,72,74.1,47.8,Residence Hall/Dormitory
+79,6794093,John G. Brooks Memorial Pavillion & Dedeaux Field (BDF),12420433,USC Campus Parent,2020-12-31 00:00:00,58,121.9,44.2,Office
+80,6794100,McKibben Hall (MCH),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,320.3,207.7,College/University
+81,6794105,Dedeaux Field (BDX),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,0.6,0.2,Other
+82,6794108,Mccarthy Way Structure (PSX),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,1.4,0.5,Parking
+83,6798093,General William Lyon University Center (LRC),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,317.5,190.6,Fitness Center/Health Club/Gym
+84,6798116,Elaine & Kenneth Leventhal School of Accounting (ACC),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,209.3,169,College/University
+85,6798121,Stevens Hall Neuroimaging (formerly Rmr) (SHN),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,1403.4,822,College/University
+86,6798129,Bridge Memorial Hall (BRI),12420433,USC Campus Parent,2020-12-31 00:00:00,22,214.4,186.7,Office
+87,6798131,George Finley Bovard Administration & Kenneth Norris Jr. Auditorium (ADM),12420433,USC Campus Parent,2020-12-31 00:00:00,84,102.1,81.7,Office
+88,6798133,David X.Marks Residence Hall (DXM),12420433,USC Campus Parent,2020-12-31 00:00:00,37,109.6,60.5,Residence Hall/Dormitory
+89,6798136,Seeley G. Mudd Building (SGM),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,343.1,183.3,College/University
+90,6798137,Allan Hancock Foundation (AHF),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,127.9,112,College/University
+91,6798139,Annenberg School for Communication (ASC),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,121.4,58.8,College/University
+92,6798145,Biegler Hall of Engineering (BHE),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,306.7,188.2,Laboratory
+93,6798146,Edward L. Doheny Jr. Memorial Library (DML),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,194.1,108.2,Library
+94,6798150,Bing Theatre (BIT),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,121.8,75.3,College/University
+95,6798153,Hughes Aircraft Electrical Engineering Center (EEB),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,205.7,135.6,College/University
+96,6798154,Pertusati University Bookstore (BKS),12420433,USC Campus Parent,2020-12-31 00:00:00,76,100.6,96.1,Retail Store
+97,6798163,Ethel Percy Andrus Gerontology Center (GER),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,306.5,207.6,College/University
+98,6798166,Heritage Hall (HER),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,260.8,185.3,College/University
+99,6798167,Elisabeth Von Kleinsmid Memorial Residence Hall (EVK),12420433,USC Campus Parent,2020-12-31 00:00:00,14,137.8,80.7,Residence Hall/Dormitory
+100,6798168,Elvon & Mabel Musick Law Building (Center) (LAW),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,167.7,98.5,College/University
+101,6798171,Marianne & J. Douglas Pardee Tower (PTD),12420433,USC Campus Parent,2020-12-31 00:00:00,70,79.7,49.9,Residence Hall/Dormitory
+102,6798173,"Grace Ford Salvatori Hall of Letters, Arts and Sciences (GFS)",Not Applicable: Standalone Property,Not Applicable: Standalone Property,2020-12-31 00:00:00,Not Available,168.4,110.8,College/University
+103,6798176,Charllotte S. & Davre R. Davidson Continuing Education Conference Center (DCC),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,92.9,33.2,College/University
+104,6798181,Robert Glen Rapp Engineering Research Building (RRB),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,142.1,52.1,Laboratory
+105,6798184,"May Ormerod Harris Hall, Quinn WIngs & Fisher Gallery (HAR)",12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,162.7,89.8,College/University
+106,6798238,Donald P. & Katherine B. Loker Hydrocarbon Institute (LHI),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,516.6,281.8,College/University
+107,6798289,Jane Hoffman Popovich & J. Kristoffer Popovich Hall (JKP),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,58.3,39.4,College/University
+108,6798291,Eileen L. Norris Cinema Theater (NCT),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,89.7,47.9,College/University
+109,6798292,Hedco Neuroscience Building (HNB),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,512.5,416.7,College/University
+110,6798922,H. Leslie Hoffman Hall of Business Administration (HOH),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,283.5,197.8,College/University
+111,6798981,Internationally Themed Residental College (IRC),12420433,USC Campus Parent,2020-12-31 00:00:00,13,169.9,121.6,Residence Hall/Dormitory
+112,6800022,Kaprielian Hall (KAP),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,135.2,81.8,College/University
+113,6800023,Jerry & Nancy Neely Petroleum & Chemical Engineering Building (PCE),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,368.6,250.2,Laboratory
+114,6800026,Charles Lee Powell Hall (PHE),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,416.5,241.9,College/University
+115,6800094,The Kathleen L. McCarthy Honors College (MHC),12420433,USC Campus Parent,2020-12-31 00:00:00,22,156.5,107.8,Residence Hall/Dormitory
+116,6808919,Albert S. Raubenheimer Music Faculty Memorial Building (MUS),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,139,86.1,College/University
+117,6808925,Henry Salvatori Computer Science Center (SAL),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,124,101.9,College/University
+118,6808938,Von Kleinsmid Center For International & Public Affairs (VKC),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,99.2,51.4,College/University
+119,11933664,Annenberg House (ANH),12420433,USC Campus Parent,2021-12-31 00:00:00,100,10.4,3.7,Residence Hall/Dormitory
+120,11933669,Health Research Association (HRA),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,156.1,66.5,Outpatient Rehabilitation/Physical Therapy
+121,11934068,Keck Hospital of USC (UNH)_USC Healthcare Consultation Center (HC1),11934068,Keck Hospital of USC (UNH)_USC Healthcare Consultation Center (HC1),2020-12-31 00:00:00,13,509.7,264,Hospital (General Medical & Surgical)
+122,11979807,Stonier Hall (STO),12420433,USC Campus Parent,2020-12-31 00:00:00,28,184.9,146,Office
+123,11982913,John Hubbard Hall (JHH) aka SAS,12420433,USC Campus Parent,2020-12-31 00:00:00,51,137.4,73.4,Office
+124,11984783,Jessie & Charles Cale and Ray Irani Residential Hall (CIC),12420433,USC Campus Parent,2020-12-31 00:00:00,31,132.6,86.3,Residence Hall/Dormitory
+125,11984785,A.C Allen Cowlings & Illium Residential Hall (CRC),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,84.5,49.8,Residence Hall/Dormitory
+126,11984793,Dorothy & Hugh Edmondson Research (EDM),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,0,0,College/University
+127,11984859,Department of Motors Vehicles (DMV),12420433,USC Campus Parent,2021-12-31 00:00:00,81,21.1,7.5,Non-Refrigerated Warehouse
+128,11984900,Willard Keith Administration & Medical Forum (KAM),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,232.2,153.2,College/University
+129,11984912,East Library Building (ELB),12420433,USC Campus Parent,2021-12-31 00:00:00,100,3.2,1.1,Non-Refrigerated Warehouse
+130,11984983,Jame H. Zuberge Hall of Science (ZHS),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,311.5,224.1,College/University
+131,11984984,Vivian Hall of Engineering (VHE),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,804.5,415.5,College/University
+132,11984987,University Gardens Bldg (UGB),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,71.4,28,College/University
+133,11984991,Troyland Apartments (TAP),12420433,USC Campus Parent,2020-12-31 00:00:00,100,35.4,25.8,Multifamily Housing
+134,11984995,SEAVER SCIENCE LIBRARY (SSL),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,214.9,170.3,Library
+135,11985004,Glorya Kaufman International Dance Center (KDC),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,98.9,72,College/University
+136,11985032,United University Church (UUC),12420433,USC Campus Parent,2020-12-31 00:00:00,100,2.7,1.5,Worship Facility
+137,11985038,Ronald Tutor Campus Center (TCC) aka SKS,12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,394.9,244.5,College/University
+138,11985040,GWYNN WILSON STUDENT UNION (STU),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,111.2,76.2,College/University
+139,11985051,FRANK R. SEAVER SCIENCE CENTER (SSC),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,633.1,351.9,Laboratory
+140,11985211,SENATOR APARTMENTS (SNA),12420433,USC Campus Parent,2020-12-31 00:00:00,86,57.7,45.1,Multifamily Housing
+141,11985257,LA SORBONNE APARTMENTS (LAB),12420433,USC Campus Parent,2020-12-31 00:00:00,100,41.2,28,Residence Hall/Dormitory
+142,12000293,RALPH AND GOLDY LEWIS HALL (RGL),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,138,87.6,College/University
+143,12000666,ROBERT ZEMECKIS CENTER FOR DIGITAL ARTS (RZC),12420433,USC Campus Parent,2019-12-31 00:00:00,Not Available,338.3,154.1,College/University
+144,12000991,SCHOOL OF CINEMATIC ARTS-BUILDING B (SCB),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,118.6,77.2,College/University
+145,12001316,SHRINE PARKING STRUCTURE (SHP),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,7.6,2.7,Parking
+146,12001531,JOHN STAUFFER HALL OF SCIENCE (SHS),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,542.4,352.3,College/University
+147,12001730,SEELEY WINTERSMITH MUDD MEMORIAL HALL (OF PHILOSOPHY) (MHP),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,126.1,99.5,College/University
+148,12003020,SHELLY & OFER NEMIROVSKY AND DAVID C. BOHNETT RESIDENTIAL (NBC),12420433,USC Campus Parent,2020-12-31 00:00:00,40,125.1,73.1,Residence Hall/Dormitory
+149,12017486,McMorrow Residential College (MRC),12420433,USC Campus Parent,2020-12-31 00:00:00,66,95,58.2,Residence Hall/Dormitory
+150,12027507,SOCIAL SCIENCES BUILDING (SOS),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,119.4,62.7,College/University
+151,12043380,HC1,"11934068, 12420433","Keck Hospital of USC (UNH)_USC Healthcare Consultation Center (HC1), USC Campus Parent",No Current Year Ending Date,Not Available,Not Available,Not Available,Medical Office
+152,12369302,RAY & NADINE WATT HALL OF ARCHITECTURE & FINE ARTS (WAH),12420433,USC Campus Parent,2020-12-31 00:00:00,Not Available,186.3,125.1,College/University
+153,12420433,USC Campus Parent,12420433,USC Campus Parent,2019-12-31 00:00:00,Not Available,134.2,74.5,College/University
+154,12452501,Pacific Asian Museum (PAM),Not Applicable: Standalone Property,Not Applicable: Standalone Property,2020-08-31 00:00:00,Not Available,54.1,19.3,Museum
+155,12713723,Verdugo Hills Hospital (VHH),Not Applicable: Standalone Property,Not Applicable: Standalone Property,2020-08-31 00:00:00,33,479.8,248.5,Hospital (General Medical & Surgical)
+156,15667689,JIMMY IOVINE AND ANDRE YOUNG HALL (IYH),Not Applicable: Standalone Property,Not Applicable: Standalone Property,2021-07-31 00:00:00,Not Available,113.6,77.5,College/University
