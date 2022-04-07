@@ -1,0 +1,338 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
+
+```{r}
+library(fpp2)
+library(tidyverse)
+library(readxl)
+library(forecast)
+
+library(ggplot2)
+library(dplyr)
+library(reshape2)
+
+library(janitor)
+library(tibble)
+```
+
+
+```{r}
+#set wd
+
+getwd()
+setwd('C:/Users/kesha/Desktop/MSBA Keshav/Case Competitions/MSBA Case Competition')
+```
+
+```{r}
+#read electricity data for proof of concept section
+elec = read_excel('UPC Utility Data 2018-2021.xlsx', sheet="Electricity", range = "A6:AY232")
+elec_ts_clean = data.frame(t(elec[c(-1,-224,-225),-1:-2]))
+head(elec_ts_clean)
+```
+
+
+```{r}
+#make field numeric and only select relevant columns with data
+elec_ts_TOT = elec_ts_clean[-1,223]
+elec_ts_TOT = as.numeric(elec_ts_TOT)
+
+```
+
+```{r}
+# Create a time series object for electricity totals data
+elec_ts_TOT.ts = ts(elec_ts_TOT,start=c(2018,1),frequency=12)
+```
+
+
+```{r}
+#moving average example of elec trend - proof of concept
+elec.trend = ma(elec_ts_TOT.ts, order = 12)
+autoplot(elec_ts_TOT.ts) + autolayer(elec.trend) + ylab("Total Elec Usage") +
+  xlab("Time")
+
+```
+
+```{r}
+#Example forecast fit to show COVID sharp adjustment and Trend Ramp
+
+# Divide data into training and testing sets and call y.train and y.test
+y.train = window(elec_ts_TOT.ts, start=c(2020,3),end=c(2021,8))
+y.train
+
+y.test = window(elec_ts_TOT.ts, start=c(2021,9))
+y.test
+length(y.test)
+
+
+# Build a model on training set and predict on the testing set
+
+M1 = auto.arima(y.train,lambda='auto')
+M1F = forecast(M1, h = length(y.test))
+accuracy(M1F) #MAPE ~47.5
+M1
+
+
+#Plot existing data, fitted values against training window, and forecast for test window
+autoplot(elec_ts_TOT.ts,size=1) + geom_point(size=2) +  theme_bw() + 
+  autolayer(M1F$fitted,size=2,series="Fitted values") + 
+  autolayer(M1F$mean,size=2,series="Test Forecast") 
+
+
+# Plot all data (train + test) and overlay fitted values and forecasts
+autoplot(M1F$residuals)
+#autoplot(elec_ts_TOT.ts) + autolayer(M1$fitted) + autolayer(M1$mean,size=2)+
+#  theme_bw()
+```
+
+
+
+```{r}
+#example linear model showing proof of concept on one building
+elec_ts_clean = janitor::row_to_names(elec_ts_clean, row_number=1) %>% clean_names()
+elec_ts_clean$adm <- as.numeric(elec_ts_clean$adm)
+
+#create factors
+elec_ts_clean = elec_ts_clean %>% mutate(Ramp=c(rep(0,27),1:21))
+elec_ts_clean = elec_ts_clean %>% mutate(Bump=c(rep(0,27),rep(1,21)))
+elec_ts_clean$Month = 1:(dim(elec_ts_clean)[1])
+elec_ts_clean = elec_ts_clean %>% mutate(MonthShort=c('Jan','Feb','March','April','May','June','July','Aug','Sep','Oct','Nov','Dec',
+                                                      'Jan','Feb','March','April','May','June','July','Aug','Sep','Oct','Nov','Dec',
+                                                      'Jan','Feb','March','April','May','June','July','Aug','Sep','Oct','Nov','Dec',
+                                                      'Jan','Feb','March','April','May','June','July','Aug','Sep','Oct','Nov','Dec'))
+
+#create lag1
+elec_ts_clean$adm_Lag1 <- elec_ts_clean$adm %>% lag(1)
+
+#M11 creation - example to make loop
+
+
+xLabels = c('','','','Feb 2020','Feb 2021','')
+M11=lm(adm ~ Bump + Ramp + Month + MonthShort + adm_Lag1,data=elec_ts_clean)
+
+elec_ts_clean$M11ADM = c(0,M11$fitted.values)
+elec_ts_clean$M11ADM
+dim(elec_ts_clean)
+elec_ts_clean[2:48,] %>% ggplot(mapping=aes(x=Month,y=adm)) + geom_point() + theme_bw()+
+  geom_line(aes(x=Month,y=adm)) +
+  geom_line(mapping=aes(x=Month,y=M11ADM),col="red",lwd=1)+
+  labs(y= "Electricty Usage (ADM Building)", x = "Month")+
+  scale_x_continuous(breaks = c(0,10,20,30,40,50),labels = xLabels)
+                     
+
+  #scale_x_discrete(breaks=c("0.5","1","2"),labels=c("Dose 0.5", "Dose 1", "Dose 2"))
+#M11 test creation end - commented out section
+summary(M11)
+
+
+M11$coefficients[3]
+
+```
+
+
+
+```{r}
+########
+# Electricity Section - create output table of means and coefficients
+########
+
+elec = read_excel('UPC Utility Data 2018-2021.xlsx', sheet="Electricity", range = "A6:AY232")
+elec_clean = data.frame(t(elec[c(-1,-224,-225),-1:-2]))
+
+
+elec_clean = janitor::row_to_names(elec_clean, row_number=1) %>% clean_names()
+elec_clean[1:223]
+
+
+#create data frame to store results, row names are the bldg codes and coefficients are the post-covid trend coefficient (Ramp)
+elec_results = data.frame(colnames(elec_clean[1:223]),coefficient_value=0,row.names = colnames(elec_clean[1:223]))
+elec_results = elec_results[-1]
+#colnames(elec_results)
+elec_results
+
+elec_clean = elec_clean %>% mutate(Ramp=c(rep(0,27),1:21))
+elec_clean = elec_clean %>% mutate(Bump=c(rep(0,27),rep(1,21)))
+elec_clean$Month = 1:(dim(elec_clean)[1])
+elec_clean = elec_clean %>% mutate(MonthShort=c('Jan','Feb','March','April','May','June','July','Aug','Sep','Oct','Nov','Dec',
+                                                      'Jan','Feb','March','April','May','June','July','Aug','Sep','Oct','Nov','Dec',
+                                                      'Jan','Feb','March','April','May','June','July','Aug','Sep','Oct','Nov','Dec',
+                                                      'Jan','Feb','March','April','May','June','July','Aug','Sep','Oct','Nov','Dec'))
+
+#elec_clean$adm_Lag1 <- elec_clean$adm %>% lag(1)
+
+for (i in colnames(elec_clean)[1:223]) {
+  elec_clean[i] <- as.numeric(unlist(elec_clean[i]))
+  M_i = lm(unlist(elec_clean[i]) ~ Ramp + Bump + Month + MonthShort,data=elec_clean)
+  elec_results[i,"coefficient_value"] = M_i$coefficients[3]
+  elec_results[i,"mean"] = mean(unlist(elec_clean[i]))
+}
+elec_results
+
+write.csv(elec_results,"electricity_mean_trend.csv")
+#write.csv(elec_results,"electricity_mean_trend.csv")
+```
+
+
+
+
+```{r}
+################
+# nat_gas section start
+################
+nat_gas = read_excel('UPC Utility Data 2018-2021.xlsx', sheet="Natural Gas", range = "A3:AY181")
+nat_gas_clean = data.frame(t(nat_gas[c(-179,-180),-1:-2]))
+
+
+
+
+
+#janitor to get rid of auto generated column names and put proper column names on
+nat_gas_clean = janitor::row_to_names(nat_gas_clean, row_number=1) %>% clean_names()
+dim(nat_gas_clean)
+nat_gas_clean = nat_gas_clean[c(-176,-177,-178)]
+nat_gas_clean
+
+nat_gas_clean = nat_gas_clean %>% mutate(Ramp=c(rep(0,27),1:21))
+nat_gas_clean = nat_gas_clean %>% mutate(Bump=c(rep(0,27),rep(1,21)))
+nat_gas_clean$Month = 1:(dim(nat_gas_clean)[1])
+nat_gas_clean = nat_gas_clean %>% mutate(MonthShort=c('Jan','Feb','March','April','May','June','July','Aug','Sep','Oct','Nov','Dec',
+                                                      'Jan','Feb','March','April','May','June','July','Aug','Sep','Oct','Nov','Dec',
+                                                      'Jan','Feb','March','April','May','June','July','Aug','Sep','Oct','Nov','Dec',
+                                                      'Jan','Feb','March','April','May','June','July','Aug','Sep','Oct','Nov','Dec'))
+
+
+
+
+#create data frame to store results, row names are the bldg codes and coefficients are the post-covid trend coefficient (Ramp)
+nat_gas_results = data.frame(colnames(nat_gas_clean[1:175]),coefficient_value=0,row.names = colnames(nat_gas_clean[1:175]))
+nat_gas_results = nat_gas_results[-1]
+#colnames(elec_results)
+nat_gas_results
+
+for (i in colnames(nat_gas_clean)[1:175]) {
+  nat_gas_clean[i] <- as.numeric(unlist(nat_gas_clean[i]))
+  M_i = lm(unlist(nat_gas_clean[i]) ~ Ramp + Bump + Month + MonthShort,data=nat_gas_clean)
+  nat_gas_results[i,"coefficient_value"] = M_i$coefficients[3]
+  nat_gas_results[i,"mean"] = mean(unlist(nat_gas_clean[i]))
+}
+nat_gas_results
+
+write.csv(nat_gas_results,"nat_gas_mean_trend.csv")
+###############################
+#  Nat Gas Section End
+###############################
+```
+
+
+
+```{r}
+################
+# water section start
+################
+
+water = read_excel('UPC Utility Data 2018-2021.xlsx', sheet="Water", range = "A5:AY193") #this read cuts off the totals row which we don't happen to use and two houses without acronyms
+water_clean = data.frame(t(water[c(-1),c(-1,-3)]))
+
+
+head(water_clean)
+dim(water_clean)
+water_clean[1:187]
+#janitor to get rid of auto generated column names and put proper column names on
+water_clean = janitor::row_to_names(water_clean, row_number=1) %>% clean_names()
+dim(water_clean)
+#nat_gas_clean = nat_gas_clean[c(-176,-177,-178)]
+#nat_gas_clean
+
+water_clean = water_clean %>% mutate(Ramp=c(rep(0,27),1:21))
+water_clean = water_clean %>% mutate(Bump=c(rep(0,27),rep(1,21)))
+water_clean$Month = 1:(dim(water_clean)[1])
+water_clean = water_clean %>% mutate(MonthShort=c('Jan','Feb','March','April','May','June','July','Aug','Sep','Oct','Nov','Dec',
+                                                      'Jan','Feb','March','April','May','June','July','Aug','Sep','Oct','Nov','Dec',
+                                                      'Jan','Feb','March','April','May','June','July','Aug','Sep','Oct','Nov','Dec',
+                                                      'Jan','Feb','March','April','May','June','July','Aug','Sep','Oct','Nov','Dec'))
+
+
+
+
+#create data frame to store results, row names are the bldg codes and coefficients are the post-covid trend coefficient (Ramp)
+water_results = data.frame(colnames(water_clean[1:187]),coefficient_value=0,row.names = colnames(water_clean[1:187])) #187 columns to avoid selecting factor columns
+water_results = water_results[-1]
+#colnames(elec_results)
+water_results
+
+for (i in colnames(water_clean)[1:187]) {
+  water_clean[i] <- as.numeric(unlist(water_clean[i]))
+  M_i = lm(unlist(water_clean[i]) ~ Ramp + Bump + Month + MonthShort,data=water_clean)
+  water_results[i,"coefficient_value"] = M_i$coefficients[3]
+  water_results[i,"mean"] = mean(unlist(water_clean[i]))
+}
+water_results
+
+write.csv(water_results,"water_mean_trend.csv")
+###############################
+#  Water Section End
+###############################
+```
+
+```{r}
+###############################
+# Chilled Water Section Start
+###############################
+
+
+chill_water = read_excel('UPC Utility Data 2018-2021.xlsx', sheet="Chilled Water", range = "A5:AX76")
+chill_water_clean = data.frame(t(chill_water[c(-69,-70,-71),c(-1)]))
+
+
+head(chill_water_clean)
+dim(chill_water_clean)
+chill_water_clean
+#chill_water_clean = chill_water_clean[,-24] #drop empty irc_k column with too many NAs
+
+sum(is.na(chill_water_clean))
+
+#chill_water_clean[!complete.cases(chill_water_clean), ]
+
+#janitor to get rid of auto generated column names and put proper column names on
+chill_water_clean = janitor::row_to_names(chill_water_clean, row_number=1) %>% clean_names()
+dim(chill_water_clean) #should be 48 rows
+#nat_gas_clean = nat_gas_clean[c(-176,-177,-178)]
+#nat_gas_clean
+
+chill_water_clean = chill_water_clean %>% mutate(Ramp=c(rep(0,27),1:21))
+chill_water_clean = chill_water_clean %>% mutate(Bump=c(rep(0,27),rep(1,21)))
+chill_water_clean$Month = 1:(dim(chill_water_clean)[1])
+chill_water_clean = chill_water_clean %>% mutate(MonthShort=c('Jan','Feb','March','April','May','June','July','Aug','Sep','Oct','Nov','Dec',
+                                                  'Jan','Feb','March','April','May','June','July','Aug','Sep','Oct','Nov','Dec',
+                                                  'Jan','Feb','March','April','May','June','July','Aug','Sep','Oct','Nov','Dec',
+                                                  'Jan','Feb','March','April','May','June','July','Aug','Sep','Oct','Nov','Dec'))
+
+
+#create data frame to store results, row names are the bldg codes and coefficients are the post-covid trend coefficient (Ramp)
+chill_water_results = data.frame(colnames(chill_water_clean[1:67]),coefficient_value=0,row.names = colnames(chill_water_clean[1:67])) #67 to avoid selecting factor columns
+chill_water_results = chill_water_results[-1]
+#colnames(elec_results)
+chill_water_results
+
+colnames(chill_water_clean)
+
+for (i in colnames(chill_water_clean[1:67])){           #1:67 to avoid selecting factor columns
+    chill_water_clean[i] <- as.numeric(unlist(chill_water_clean[i]))
+    M_i = lm(unlist(chill_water_clean[i]) ~ Ramp + Bump + Month + MonthShort,data=chill_water_clean)
+    chill_water_results[i,"coefficient_value"] = M_i$coefficients[3]
+    chill_water_results[i,"mean"] = mean(unlist(chill_water_clean[i]))
+}
+chill_water_results
+
+write.csv(water_results,"chill_water_mean_trend.csv")
+
+###############################
+# Chilled Water Section End
+###############################
+```
+
