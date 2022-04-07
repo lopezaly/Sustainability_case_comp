@@ -1,7 +1,7 @@
 # USC Sustainability Case Competition - April 2022
 
 - Team Red goes Green explores the USC Sustainability inititatves and current trends in energy use to work toward carbon neutrality. The team gives four suggestions from the data to better support the University's objectives and movement toward a greener campus.
-- Members Amrita Ligga, Ankita Sachan, Alyssa Lopez, Keshav Srinivasan compelte exploratory analysis, perception graphing of time-series regression output, and 
+- Members Amrita Ligga, Ankita Sachan, Alyssa Lopez, Keshav Srinivasan completed exploratory analysis, kMeans clutering with PCA representations, perception graphing of time-series regression output, and a deep dive case study of identified buildings at risk.  
 
 **Final Presentation:**
 - [Red Goes Green - Case Presentation](https://github.com/lopezaly/Sustainability_case_comp/blob/main/Team%20Red%20goes%20Green.pdf)
