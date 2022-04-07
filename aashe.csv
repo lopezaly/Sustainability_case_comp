@@ -1,0 +1,201 @@
+university,rating,major_cat,credit,status,score,total,ratio
+USC,Silver,air_climate,Emissions Inventory and Disclosure, Complete,2.46,3,0.82
+USC,Silver,air_climate,Greenhouse Gas Emissions, Complete,3.95,8,0.49375
+USC,Silver,buildings,Building Design and Construction, Complete,0.53,3,0.176666667
+USC,Silver,buildings,Building Operations and Maintenance, Complete,1.96,5,0.392
+USC,Silver,energy,Building Energy Efficiency, Complete,2.84,6,0.473333333
+USC,Silver,energy,Clean and Renewable Energy, Complete,0,4,0
+USC,Silver,food_dining,Food and Beverage Purchasing, Complete,3.24,6,0.54
+USC,Silver,food_dining,Sustainable Dining, Complete,1.88,2,0.94
+USC,Silver,grounds,Landscape Management, Complete,1,2,0.5
+USC,Silver,grounds,Biodiversity, Complete,2,2.00 ,1
+USC,Silver,purchasing,Sustainable Procurement, Complete,0.5,3,0.166666667
+USC,Silver,purchasing,Electronics Purchasing, Complete,0.55,1,0.55
+USC,Silver,purchasing,Cleaning and Janitorial Purchasing, Complete,0.49,1,0.49
+USC,Silver,purchasing,Office Paper Purchasing, Complete,0.62,1,0.62
+USC,Silver,transportation,Campus Fleet, Complete,0.23,1,0.23
+USC,Silver,transportation,Commute Modal Split, Complete,3.75,5,0.75
+USC,Silver,transportation,Support for Sustainable Transportation, Complete,1,1,1
+USC,Silver,waste,Waste Minimization and Diversion, Complete,0.88,8,0.11
+USC,Silver,waste,Construction and Demolition Waste Diversion, Complete,0.61,1,0.61
+USC,Silver,waste,Hazardous Waste Management, Complete,1,1,1
+USC,Silver,water,Water Use, Complete,1.76,6.00 ,0.293333333
+USC,Silver,water,Rainwater Management, Complete,2,2,1
+UCLA,Gold,air_climate,Emissions Inventory and Disclosure, Complete,2.21,3,0.736666667
+UCLA,Gold,air_climate,Greenhouse Gas Emissions, Complete,5.02,8,0.6275
+UCLA,Gold,buildings,Building Design and Construction, Complete,2.68,3,0.893333333
+UCLA,Gold,buildings,Building Operations and Maintenance, Complete,2.15,5,0.43
+UCLA,Gold,energy,Building Energy Efficiency, Complete,0.78,6,0.13
+UCLA,Gold,energy,Clean and Renewable Energy, Complete,0.01,4,0.0025
+UCLA,Gold,food_dining,Food and Beverage Purchasing, Complete,1.41,6,0.235
+UCLA,Gold,food_dining,Sustainable Dining, Complete,2,2,1
+UCLA,Gold,grounds,Landscape Management, Complete,1,2,0.5
+UCLA,Gold,grounds,Biodiversity, Complete,1,2.00 ,0.5
+UCLA,Gold,purchasing,Sustainable Procurement, Complete,3,3,1
+UCLA,Gold,purchasing,Electronics Purchasing, Complete,0.99,1,0.99
+UCLA,Gold,purchasing,Cleaning and Janitorial Purchasing, Complete,0.87,1,0.87
+UCLA,Gold,purchasing,Office Paper Purchasing, Complete,0.22,1,0.22
+UCLA,Gold,transportation,Campus Fleet, Complete,0.39,1,0.39
+UCLA,Gold,transportation,Commute Modal Split, Complete,3.36,5,0.672
+UCLA,Gold,transportation,Support for Sustainable Transportation, Complete,0.8,1,0.8
+UCLA,Gold,waste,Waste Minimization and Diversion, Complete,4.14,8,0.5175
+UCLA,Gold,waste,Construction and Demolition Waste Diversion, Complete,0.95,1,0.95
+UCLA,Gold,waste,Hazardous Waste Management, Complete,1,1,1
+UCLA,Gold,water,Water Use, Complete,3.13,6.00 ,0.521666667
+UCLA,Gold,water,Rainwater Management, Complete,2,2,1
+Notre Dame,Gold,air_climate,Emissions Inventory and Disclosure, Complete,2.04,3,0.68
+Notre Dame,Gold,air_climate,Greenhouse Gas Emissions, Complete,2.88,8,0.36
+Notre Dame,Gold,buildings,Building Design and Construction, Complete,2.16,3,0.72
+Notre Dame,Gold,buildings,Building Operations and Maintenance, Complete,2,5,0.4
+Notre Dame,Gold,energy,Building Energy Efficiency, Complete,3.22,6,0.536666667
+Notre Dame,Gold,energy,Clean and Renewable Energy, Complete,0.31,4,0.0775
+Notre Dame,Gold,food_dining,Food and Beverage Purchasing, Not Pursuing,0,6,0
+Notre Dame,Gold,food_dining,Sustainable Dining, Complete,1.88,2,0.94
+Notre Dame,Gold,grounds,Landscape Management, Complete,0.51,2,0.255
+Notre Dame,Gold,grounds,Biodiversity, Complete,2,2.00 ,1
+Notre Dame,Gold,purchasing,Sustainable Procurement, Complete,2.75,3,0.916666667
+Notre Dame,Gold,purchasing,Electronics Purchasing, Not Pursuing,0,1,0
+Notre Dame,Gold,purchasing,Cleaning and Janitorial Purchasing, Not Pursuing,0,1,0
+Notre Dame,Gold,purchasing,Office Paper Purchasing, Complete,0.48,1,0.48
+Notre Dame,Gold,transportation,Campus Fleet, Complete,0.05,1,0.05
+Notre Dame,Gold,transportation,Commute Modal Split, Complete,2.08,5,0.416
+Notre Dame,Gold,transportation,Support for Sustainable Transportation, Complete,1,1,1
+Notre Dame,Gold,waste,Waste Minimization and Diversion, Complete,2.62,8,0.3275
+Notre Dame,Gold,waste,Construction and Demolition Waste Diversion, Complete,0.91,1,0.91
+Notre Dame,Gold,waste,Hazardous Waste Management, Complete,1,1,1
+Notre Dame,Gold,water,Water Use, Complete,3.33,4.00 ,0.8325
+Notre Dame,Gold,water,Rainwater Management, Complete,2,2,1
+Stanford University,Platinum,air_climate,Greenhouse Gas Emissions, Complete,8.02,10,0.802
+Stanford University,Platinum,air_climate,Outdoor Air Quality, Complete,1,1,1
+Stanford University,Platinum,buildings,Building Operations and Maintenance, Complete,2.23,5,0.446
+Stanford University,Platinum,buildings,Building Design and Construction, Complete,1.5,3,0.5
+Stanford University,Platinum,energy,Building Energy Consumption, Complete,5.14,6,0.856666667
+Stanford University,Platinum,energy,Clean and Renewable Energy, Complete,2.23,4,0.5575
+Stanford University,Platinum,food_dining,Food and Beverage Purchasing, Complete,1.67,6,0.278333333
+Stanford University,Platinum,food_dining,Sustainable Dining, Complete,2,2,1
+Stanford University,Platinum,grounds,Landscape Management, Complete,1,2,0.5
+Stanford University,Platinum,grounds,Biodiversity, Complete,2,2.00 ,1
+Stanford University,Platinum,purchasing,Sustainable Procurement, Complete,3,3,1
+Stanford University,Platinum,purchasing,Electronics Purchasing, Complete,0.97,1,0.97
+Stanford University,Platinum,purchasing,Cleaning and Janitorial Purchasing, Complete,0.51,1,0.51
+Stanford University,Platinum,purchasing,Office Paper Purchasing, Complete,0.23,1,0.23
+Stanford University,Platinum,transportation,Campus Fleet, Complete,0.44,1,0.44
+Stanford University,Platinum,transportation,Student Commute Modal Split, Complete,1.76,2,0.88
+Stanford University,Platinum,transportation,Employee Commute Modal Split, Complete,1.01,2,0.505
+Stanford University,Platinum,transportation,Support for Sustainable Transportation, Complete,2,2,1
+Stanford University,Platinum,waste,Waste Minimization and Diversion, Complete,4.02,8,0.5025
+Stanford University,Platinum,waste,Construction and Demolition Waste Diversion, Complete,0.73,1,0.73
+Stanford University,Platinum,waste,Hazardous Waste Management, Complete,1,1,1
+Stanford University,Platinum,water,Water Use, Complete,6,6.00 ,1
+Stanford University,Platinum,water,Rainwater Management, Complete,2,2,1
+Cal State LA,Silver,air_climate,Greenhouse Gas Emissions, Complete,6.55,10,0.655
+Cal State LA,Silver,air_climate,Outdoor Air Quality, Complete,1,1,1
+Cal State LA,Silver,buildings,Building Operations and Maintenance, Complete,0,5,0
+Cal State LA,Silver,buildings,Building Design and Construction, Complete,1.53,3,0.51
+Cal State LA,Silver,energy,Building Energy Consumption, Complete,2.9,6,0.483333333
+Cal State LA,Silver,energy,Clean and Renewable Energy, Complete,0.03,4,0.0075
+Cal State LA,Silver,food_dining,Food and Beverage Purchasing, Complete,0,6,0
+Cal State LA,Silver,food_dining,Sustainable Dining, Complete,1.63,2,0.815
+Cal State LA,Silver,grounds,Landscape Management, Complete,0,2,0
+Cal State LA,Silver,grounds,Biodiversity, Complete,1,1.00 ,1
+Cal State LA,Silver,purchasing,Sustainable Procurement, Complete,0,3,0
+Cal State LA,Silver,purchasing,Electronics Purchasing, Complete,1,1,1
+Cal State LA,Silver,purchasing,Cleaning and Janitorial Purchasing, Complete,0.88,1,0.88
+Cal State LA,Silver,purchasing,Office Paper Purchasing, Complete,0.4,1,0.4
+Cal State LA,Silver,transportation,Campus Fleet, Complete,0.49,1,0.49
+Cal State LA,Silver,transportation,Student Commute Modal Split, Complete,0.98,2,0.49
+Cal State LA,Silver,transportation,Employee Commute Modal Split, Complete,0.54,2,0.27
+Cal State LA,Silver,transportation,Support for Sustainable Transportation, Complete,1.8,2,0.9
+Cal State LA,Silver,waste,Waste Minimization and Diversion, Complete,3.84,8,0.48
+Cal State LA,Silver,waste,Construction and Demolition Waste Diversion, Complete,0.92,1,0.92
+Cal State LA,Silver,waste,Hazardous Waste Management, Complete,0.5,1,0.5
+Cal State LA,Silver,water,Water Use, Complete,6,6.00 ,1
+Cal State LA,Silver,water,Rainwater Management, Complete,0.5,2,0.25
+Texas A&M University,Gold,air_climate,Emissions Inventory and Disclosure, Complete,2.56,3,0.853333333
+Texas A&M University,Gold,air_climate,Greenhouse Gas Emissions, Complete,4.15,8,0.51875
+Texas A&M University,Gold,buildings,Building Design and Construction, Complete,0.31,3,0.103333333
+Texas A&M University,Gold,buildings,Building Operations and Maintenance, Complete,2,5,0.4
+Texas A&M University,Gold,energy,Building Energy Efficiency, Complete,5.29,6,0.881666667
+Texas A&M University,Gold,energy,Clean and Renewable Energy, Complete,0,4,0
+Texas A&M University,Gold,food_dining,Food and Beverage Purchasing, Complete,1.62,6,0.27
+Texas A&M University,Gold,food_dining,Sustainable Dining, Complete,2,2,1
+Texas A&M University,Gold,grounds,Landscape Management, Complete,1.01,2,0.505
+Texas A&M University,Gold,grounds,Biodiversity, Complete,1,1.00 ,1
+Texas A&M University,Gold,purchasing,Sustainable Procurement, Complete,1.25,3,0.416666667
+Texas A&M University,Gold,purchasing,Electronics Purchasing, Complete,0.22,1,0.22
+Texas A&M University,Gold,purchasing,Cleaning and Janitorial Purchasing, Complete,0.77,1,0.77
+Texas A&M University,Gold,purchasing,Office Paper Purchasing, Complete,0.22,1,0.22
+Texas A&M University,Gold,transportation,Campus Fleet, Complete,0.17,1,0.17
+Texas A&M University,Gold,transportation,Commute Modal Split, Complete,2.98,5,0.596
+Texas A&M University,Gold,transportation,Support for Sustainable Transportation, Complete,0.8,1,0.8
+Texas A&M University,Gold,waste,Waste Minimization and Diversion, Complete,2.64,8,0.33
+Texas A&M University,Gold,waste,Construction and Demolition Waste Diversion, Complete,0.96,1,0.96
+Texas A&M University,Gold,waste,Hazardous Waste Management, Complete,1,1,1
+Texas A&M University,Gold,water,Water Use, Complete,4,4.00 ,1
+Texas A&M University,Gold,water,Rainwater Management, Complete,1,2,0.5
+Oregon State University,Gold,air_climate,Emissions Inventory and Disclosure, Complete,1.73,3,0.576666667
+Oregon State University,Gold,air_climate,Greenhouse Gas Emissions, Complete,4.44,8,0.555
+Oregon State University,Gold,buildings,Building Design and Construction, Complete,1.25,3,0.416666667
+Oregon State University,Gold,buildings,Building Operations and Maintenance, Complete,1.9,5,0.38
+Oregon State University,Gold,energy,Building Energy Efficiency, Complete,5.08,6,0.846666667
+Oregon State University,Gold,energy,Clean and Renewable Energy, Complete,0.05,4,0.0125
+Oregon State University,Gold,food_dining,Food and Beverage Purchasing, Complete,1.49,6,0.248333333
+Oregon State University,Gold,food_dining,Sustainable Dining, Complete,2,2,1
+Oregon State University,Gold,grounds,Landscape Management, Complete,1.05,2,0.525
+Oregon State University,Gold,grounds,Biodiversity, Complete,2,2.00 ,1
+Oregon State University,Gold,purchasing,Sustainable Procurement, Complete,2,3,0.666666667
+Oregon State University,Gold,purchasing,Electronics Purchasing, Complete,0.65,1,0.65
+Oregon State University,Gold,purchasing,Cleaning and Janitorial Purchasing, Complete,0.74,1,0.74
+Oregon State University,Gold,purchasing,Office Paper Purchasing, Complete,0.25,1,0.25
+Oregon State University,Gold,transportation,Campus Fleet, Complete,0.09,1,0.09
+Oregon State University,Gold,transportation,Commute Modal Split, Complete,3.6,5,0.72
+Oregon State University,Gold,transportation,Support for Sustainable Transportation, Complete,0.6,1,0.6
+Oregon State University,Gold,waste,Waste Minimization and Diversion, Complete,5.72,8,0.715
+Oregon State University,Gold,waste,Construction and Demolition Waste Diversion, Complete,0.86,1,0.86
+Oregon State University,Gold,waste,Hazardous Waste Management, Complete,1,1,1
+Oregon State University,Gold,water,Water Use, Complete,3.12,4.00 ,0.78
+Oregon State University,Gold,water,Rainwater Management, Complete,2,2,1
+University of Oregon,Gold,air_climate,Emissions Inventory and Disclosure, Complete,2.63,3,0.876666667
+University of Oregon,Gold,air_climate,Greenhouse Gas Emissions, Complete,5.73,8,0.71625
+University of Oregon,Gold,buildings,Building Design and Construction, Complete,2.29,3,0.763333333
+University of Oregon,Gold,buildings,Building Operations and Maintenance, Complete,1,5,0.2
+University of Oregon,Gold,energy,Building Energy Efficiency, Complete,2.64,6,0.44
+University of Oregon,Gold,energy,Clean and Renewable Energy, Complete,1.44,4,0.36
+University of Oregon,Gold,food_dining,Food and Beverage Purchasing, Complete,1.49,6,0.248333333
+University of Oregon,Gold,food_dining,Sustainable Dining, Complete,2,2,1
+University of Oregon,Gold,grounds,Landscape Management, Complete,1,2,0.5
+University of Oregon,Gold,grounds,Biodiversity, Complete,1,2.00 ,0.5
+University of Oregon,Gold,purchasing,Sustainable Procurement, Complete,2.25,3,0.75
+University of Oregon,Gold,purchasing,Electronics Purchasing, Complete,0.64,1,0.64
+University of Oregon,Gold,purchasing,Cleaning and Janitorial Purchasing, Complete,0.34,1,0.34
+University of Oregon,Gold,purchasing,Office Paper Purchasing, Complete,0.29,1,0.29
+University of Oregon,Gold,transportation,Campus Fleet, Complete,0.41,1,0.41
+University of Oregon,Gold,transportation,Commute Modal Split, Complete,4.08,5,0.816
+University of Oregon,Gold,transportation,Support for Sustainable Transportation, Complete,0.8,1,0.8
+University of Oregon,Gold,waste,Waste Minimization and Diversion, Complete,3.83,8,0.47875
+University of Oregon,Gold,waste,Construction and Demolition Waste Diversion, Complete,0.83,1,0.83
+University of Oregon,Gold,waste,Hazardous Waste Management, Complete,1,1,1
+University of Oregon,Gold,water,Water Use, Complete,0.01,4.00 ,0
+University of Oregon,Gold,water,Rainwater Management, Complete,2,2,1
+Harvey Mudd College,Silver,air_climate,Greenhouse Gas Emissions, Complete,5.88,10,0.588
+Harvey Mudd College,Silver,air_climate,Outdoor Air Quality, Not Pursuing,0,1,0
+Harvey Mudd College,Silver,buildings,Building Operations and Maintenance, Complete,0.5,5,0.1
+Harvey Mudd College,Silver,buildings,Building Design and Construction, Complete,2.26,3,0.753333333
+Harvey Mudd College,Silver,energy,Building Energy Consumption, Complete,1.48,6,0.246666667
+Harvey Mudd College,Silver,energy,Clean and Renewable Energy, Complete,0,4,0
+Harvey Mudd College,Silver,food_dining,Food and Beverage Purchasing, Not Pursuing,0,6,0
+Harvey Mudd College,Silver,food_dining,Sustainable Dining, Complete,1.63,2,0.815
+Harvey Mudd College,Silver,grounds,Landscape Management, Complete,0,2,0
+Harvey Mudd College,Silver,grounds,Biodiversity, Not Pursuing,0,2.00 ,0
+Harvey Mudd College,Silver,purchasing,Sustainable Procurement, Not Pursuing,0,3,0
+Harvey Mudd College,Silver,purchasing,Electronics Purchasing, Complete,0,1,0
+Harvey Mudd College,Silver,purchasing,Cleaning and Janitorial Purchasing, Complete,0.72,1,0.72
+Harvey Mudd College,Silver,purchasing,Office Paper Purchasing, Complete,0.41,1,0.41
+Harvey Mudd College,Silver,transportation,Campus Fleet, Complete,0.73,1,0.73
+Harvey Mudd College,Silver,transportation,Student Commute Modal Split, Complete,2,2,1
+Harvey Mudd College,Silver,transportation,Employee Commute Modal Split, Complete,0.54,2,0.27
+Harvey Mudd College,Silver,transportation,Support for Sustainable Transportation, Complete,1.2,2,0.6
+Harvey Mudd College,Silver,waste,Waste Minimization and Diversion, Complete,5.3,8,0.6625
+Harvey Mudd College,Silver,waste,Hazardous Waste Management, Complete,0.5,1,0.5
+Harvey Mudd College,Silver,water,Water Use, Complete,4,6.00 ,0.666666667
+Harvey Mudd College,Silver,water,Rainwater Management, Complete,0.5,2,0.25
